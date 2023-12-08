@@ -3,6 +3,9 @@ name: Publish release
 on:
   release:
     types: [published]
+  push:
+    branches:
+      - deployment-to-github-packages-patch
 
 jobs:
   publish-release:
