@@ -151,7 +151,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/kit-security/electionguard-java-core")
+            url = uri("https://maven.pkg.github.com/kastel-security/electionguard-java")
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
                 password = System.getenv("GITHUB_TOKEN")
