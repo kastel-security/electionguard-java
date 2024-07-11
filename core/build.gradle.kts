@@ -148,7 +148,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "edu.kit.kastel.electionguard.core"
             artifactId = "electionguard.core"
-            version = "1.1"
+            version = "1.1.1"
 
             from(components["java"])
         }
